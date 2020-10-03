@@ -1,7 +1,15 @@
 /* Global Definitions */
-body {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display SC', serif;
-  text-align: center;
+}
+
+a {
+  font-family: 'Playfair Display SC', serif;
+}
+
+p {
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.2rem;
 }
 
 /* Title Page */
@@ -54,4 +62,93 @@ body {
   margin: auto;
   padding: 0 90px;
   align-items: center;
+}
+
+/* About Page */
+
+.about-page {
+  margin-bottom: 100px;
+}
+
+.about-page h1 {
+  text-align: left;
+  padding: 70px 0 0 50px;
+  font-size: 5rem;
+}
+
+#pfp {
+  max-width: 300px;
+  float: left;
+  margin-top: 59px;
+  margin-left: 35px;
+}
+
+.start-bio {
+  margin-top: 59px;
+}
+.text-content {
+  text-align: left;
+}
+
+/* Testimonials-page */
+.testimonial-page {
+  padding-bottom: 300px;
+}
+#testimonials {
+  background-color: #c4c4c4;
+}
+
+.test-title h1 {
+  padding: 70px 0 250px 50px;
+  font-size: 5rem;
+}
+
+.testimonial-text {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin: auto;
+  max-width: 70%;
+  font-size: 30px;
+}
+
+.customer-name {
+  margin-left: 80%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+@media (max-width: 1028px) {
+  .about-page h1 {
+    text-align: center;
+    padding-right: 50px;
+  }
+
+  #pfp {
+    float: none;
+    margin: auto;
+    display: block;
+  }
+
+  .text-content {
+    text-align: center;
+  }
+
+  .test-title h1 {
+    text-align: center;
+    padding-bottom: 80px;
+    font-size: 3rem;
+  }
+
+  .customer-name {
+    margin-left: 50%;
+  }
 }
