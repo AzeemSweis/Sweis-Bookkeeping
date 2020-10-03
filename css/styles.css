@@ -172,6 +172,7 @@ p {
 @media (max-width: 1028px) {
   .nav-item {
     font-size: 1.5rem;
+    padding: 0 200px;
   }
 
   .about-page h1 {
@@ -189,6 +190,11 @@ p {
 
   .text-content {
     text-align: center;
+    padding: 0 20%;
+  }
+
+  .bio-content {
+    font-size: 25px;
   }
 
   .test-title h1 {
