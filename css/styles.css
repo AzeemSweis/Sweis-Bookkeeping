@@ -58,7 +58,7 @@ p {
 }
 
 .nav-item {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin: auto;
   padding: 0 90px;
   align-items: center;
@@ -92,7 +92,7 @@ p {
 
 /* Testimonials-page */
 .testimonial-page {
-  padding-bottom: 300px;
+  padding-bottom: 150px;
 }
 #testimonials {
   background-color: #c4c4c4;
@@ -110,26 +110,75 @@ p {
   margin: auto;
   max-width: 70%;
   font-size: 30px;
+  height: 400px;
 }
 
 .customer-name {
   margin-left: 80%;
 }
-
-#press {
-  background-color: #ef8172;
-  padding-bottom: 3%;
-}
-
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
 }
 
+/* Pricing Page */
+
+#price-title {
+  font-size: 5rem;
+  padding: 70px 0 0 50px;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.card {
+  text-align: center;
+}
+
+.price-text {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Contact Page */
+
+.contact-page {
+  background-color: #c4c4c4;
+  padding-bottom: 50px;
+}
+
+.contact-title-text {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+/* .copyright-info-website-credit {
+  text-align: right;
+  font-size: 8px;
+} */
+
+/* Resizing Options */
+
 @media (max-width: 1028px) {
+  .nav-item {
+    font-size: 1.5rem;
+  }
+
   .about-page h1 {
     text-align: center;
     padding-right: 50px;
+    padding-bottom: 20px;
+    font-size: 3rem;
   }
 
   #pfp {
@@ -144,11 +193,23 @@ p {
 
   .test-title h1 {
     text-align: center;
+    padding-right: 50px;
     padding-bottom: 80px;
     font-size: 3rem;
   }
 
   .customer-name {
     margin-left: 50%;
+  }
+
+  #price-title {
+    padding-right: 50px;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .contact-title-text {
+    font-size: 3rem;
+    padding-bottom: 30px;
   }
 }
