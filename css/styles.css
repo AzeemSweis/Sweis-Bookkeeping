@@ -1,1 +1,57 @@
-/*TOD)*/
+/* Global Definitions */
+body {
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+}
+
+/* Title Page */
+
+.front-page {
+  background-image: url("../images/main-bg-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 780px;
+}
+
+.main-title {
+  padding: 50px 0 70px 0;
+}
+
+.main-title h1 {
+  font-size: 10rem;
+  color: black;
+  text-align: center;
+}
+
+.main-title h3 {
+  font-size: 3rem;
+  color: black;
+  text-align: center;
+}
+
+/* Title page Navbar edits */
+
+.navbar-nav {
+  float: none;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.navbar-nav > li {
+  display: inline-block;
+  float: none;
+}
+
+.navbar-toggler {
+  margin: 0 auto;
+}
+
+.nav-item {
+  font-size: 1.5rem;
+  margin: auto;
+  padding: 0 90px;
+  align-items: center;
+}
