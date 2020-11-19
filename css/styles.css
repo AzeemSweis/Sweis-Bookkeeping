@@ -9,13 +9,24 @@ a {
 
 p {
   font-family: 'Josefin Slab', serif;
+  font-size: 1.5rem;
+}
+
+ul {
+  font-family: 'Josefin Slab', serif;
   font-size: 1.2rem;
+}
+
+#footnote {
+  font-size: .95rem;
+  padding: 0 30px 0;
 }
 
 /* Title Page */
 
 .front-page {
-  background-image: url("../images/main-bg-image.jpg");
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/main-bg-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -28,13 +39,13 @@ p {
 
 .main-title h1 {
   font-size: 10rem;
-  color: black;
+  color: white;
   text-align: center;
 }
 
 .main-title h3 {
   font-size: 3rem;
-  color: black;
+  color: white;
   text-align: center;
 }
 
@@ -68,6 +79,7 @@ p {
 
 .about-page {
   margin-bottom: 100px;
+  background-color: #c4c4c4;
 }
 
 .about-page h1 {
@@ -77,22 +89,31 @@ p {
 }
 
 #pfp {
-  max-width: 300px;
-  float: left;
-  margin-top: 59px;
-  margin-left: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 21%;
+}
+
+.bio-whole {
+  padding: 0 50px 50px;
 }
 
 .start-bio {
   margin-top: 59px;
 }
+
+/* .bio-content {
+  padding-right: 30px;
+} */
+
 .text-content {
   text-align: left;
 }
 
 /* Testimonials-page */
 .testimonial-page {
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 #testimonials {
   background-color: #c4c4c4;
@@ -126,7 +147,7 @@ p {
 
 #price-title {
   font-size: 5rem;
-  padding: 70px 0 0 50px;
+  padding: 0 0 0 50px;
 }
 
 #pricing {
@@ -150,7 +171,6 @@ p {
 /* Contact Page */
 
 .contact-page {
-  background-color: #c4c4c4;
   padding-bottom: 50px;
 }
 
@@ -204,6 +224,7 @@ p {
     float: none;
     margin: auto;
     display: block;
+    width: 50%;
   }
 
   .text-content {
