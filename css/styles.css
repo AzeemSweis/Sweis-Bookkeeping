@@ -49,6 +49,12 @@ ul {
   text-align: center;
 }
 
+/* .background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/bg2.jpg");
+  height: 400px;
+  max-width: 800px;
+} */
+
 /* Title page Navbar edits */
 
 .navbar-nav {
@@ -71,7 +77,7 @@ ul {
 .nav-item {
   font-size: 2rem;
   margin: auto;
-  padding: 0 50px;
+  padding: 0 25px;
   align-items: center;
 }
 
@@ -209,7 +215,7 @@ ul {
 
 @media (max-width: 1028px) {
   .nav-item {
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 0 200px;
   }
 
