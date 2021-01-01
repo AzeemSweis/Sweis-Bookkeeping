@@ -230,6 +230,7 @@ ul {
 } */
 
 @media (max-width: 1028px) {
+
   .nav-item {
     font-size: 2rem;
     padding: 0 200px;
@@ -254,8 +255,17 @@ ul {
     padding: 0 20%;
   }
 
-  .bio-content {
+  .start-bio {
+    font-size: 60px;
+    padding-bottom: 20px;
+  }
+
+  #footnote {
     font-size: 30px;
+  }
+
+  .bio-content {
+    font-size: 40px;
   }
 
   .test-title h1 {
@@ -273,6 +283,14 @@ ul {
     padding-right: 50px;
     text-align: center;
     font-size: 3rem;
+  }
+
+  .card-body p {
+    font-size: 30px;
+  }
+
+  li {
+    font-size: 30px;
   }
 
   .contact-title-text {
