@@ -102,7 +102,7 @@ ul {
 }
 
 .bio-whole {
-  padding: 0 50px 50px;
+  padding: 0 100px 50px;
 }
 
 .start-bio {
@@ -215,10 +215,49 @@ ul {
   font-size: 1.3rem;
 }
 
+
 /* .copyright-info-website-credit {
   text-align: right;
   font-size: 8px;
 } */
+
+/* Scroll Back to Top */
+#button {
+  display: inline-block;
+  background-color: #808000;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s,
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 49px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
 
 /* Resizing Options */
 
