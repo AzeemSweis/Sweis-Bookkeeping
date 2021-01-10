@@ -81,6 +81,15 @@ ul {
   align-items: center;
 }
 
+.img-hold {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.intro-img {
+  max-width: 40%;
+}
+
 /* About Page */
 
 .about-page {
@@ -269,10 +278,18 @@ ul {
 } */
 
 @media (max-width: 1028px) {
+  .front-page {
+    height: 850px;
+  }
 
   .nav-item {
     font-size: 2rem;
     padding: 0 200px;
+  }
+
+  .img-hold {
+    padding-top: 80px;
+    text-align: center;
   }
 
   .about-page h1 {
