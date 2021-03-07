@@ -141,7 +141,7 @@ ul {
 
 .testimonial-text {
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 1.5;
   margin: auto;
   max-width: 70%;
@@ -354,6 +354,9 @@ ul {
     padding-bottom: 30px;
   }
 
+  .testimonial-text {
+    font-size: 22px;
+  }
   #button {
     display: inline-block;
     background-color: #808000;
