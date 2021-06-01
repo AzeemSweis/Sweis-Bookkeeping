@@ -150,6 +150,16 @@ ul {
   letter-spacing: 2px;
 }
 
+.sharbel{
+  font-weight: 900;
+  font-size: 1rem;
+  line-height: 1.4;
+  margin: auto;
+  max-width: 70%;
+  font-size: 30px;
+  height: 400px;
+}
+
 .customer-name {
   margin-left: 80%;
 }
