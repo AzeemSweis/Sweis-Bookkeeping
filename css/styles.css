@@ -127,6 +127,19 @@ ul {
 }
 
 /* Testimonials-page */
+
+.carousel-control-prev-icon {
+  height: 26%;
+  top: 33%;
+  width: 86px;
+}
+
+.carousel-control-next-icon {
+  height: 26%;
+  top: 33%;
+  width: 86px;
+}
+
 .testimonial-page {
   padding-bottom: 100px;
 }
@@ -366,6 +379,7 @@ ul {
 
   .testimonial-text {
     font-size: 22px;
+    height: 500px;
   }
   #button {
     display: inline-block;
