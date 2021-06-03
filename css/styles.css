@@ -316,7 +316,7 @@ ul {
   }
 
   .nav-item a {
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
 
   .img-hold {
