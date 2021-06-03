@@ -378,9 +378,16 @@ ul {
   }
 
   .testimonial-text {
-    font-size: 1.5rem;
-    height: 1000px;
+    font-size: 3rem;
+    height: 800px;
   }
+
+  .sharbel {
+    font-size: 3rem;
+    height: 800px;
+  }
+
+
   #button {
     display: inline-block;
     background-color: #808000;
