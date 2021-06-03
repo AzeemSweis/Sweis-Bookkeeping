@@ -388,8 +388,12 @@ ul {
     height: 800px;
   }
 
-  p.contact-info {
-    font-size: 3rem;
+  #phone {
+    font-size: 2rem;
+  }
+
+  #email {
+    font-size: 2rem;
   }
 
 
