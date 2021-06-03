@@ -388,6 +388,10 @@ ul {
     height: 800px;
   }
 
+  p.contact-info {
+    font-size: 3rem;
+  }
+
 
   #button {
     display: inline-block;
