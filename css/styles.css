@@ -378,8 +378,8 @@ ul {
   }
 
   .testimonial-text {
-    font-size: 22px;
-    height: 500px;
+    font-size: 1.5rem;
+    height: 1000px;
   }
   #button {
     display: inline-block;
