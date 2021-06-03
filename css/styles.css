@@ -356,6 +356,7 @@ ul {
 
   .customer-name {
     margin-left: 70%;
+    font-size: 2rem;
   }
 
   #price-title {
@@ -378,12 +379,12 @@ ul {
   }
 
   .testimonial-text {
-    font-size: 3rem;
+    font-size: 2rem;
     height: 800px;
   }
 
   .sharbel {
-    font-size: 3rem;
+    font-size: 2rem;
     height: 800px;
   }
 
