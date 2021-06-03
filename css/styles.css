@@ -302,12 +302,20 @@ ul {
 
 @media (max-width: 1028px) {
   .front-page {
-    height: 850px;
+    height: 1200px;
   }
 
   .nav-item {
     font-size: 2rem;
     padding: 0 200px;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 0.8rem;
+  }
+
+  .navbar-toggler {
+    padding: 2% 0 2%;
   }
 
   .img-hold {
