@@ -312,11 +312,12 @@ ul {
 
   .navbar-toggler-icon {
     font-size: 3rem;
+    font-weight: 900;
   }
 
-  /* .navbar-toggler {
-    padding: 2% 0 2%;
-  } */
+  .nav-link {
+    font-size: 2rem;
+  }
 
   .img-hold {
     padding-top: 80px;
