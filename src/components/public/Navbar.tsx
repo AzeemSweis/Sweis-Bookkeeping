@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import Image from "next/image";
 
 const NAV_LINKS = [
   { label: "About", href: "#about" },
@@ -37,15 +38,22 @@ export function Navbar() {
       }`}
       aria-label="Main navigation"
     >
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+      <div className="w-full px-4 sm:px-6">
+        <div className="flex items-center justify-between h-20">
           <a
             href="#"
             onClick={(e) => scrollTo(e, "body")}
-            className="font-heading text-2xl font-bold text-gold tracking-widest hover:text-gold-light transition-colors"
+            className="hover:opacity-90 transition-opacity"
             aria-label="Sweis Bookkeeping — scroll to top"
           >
-            SWEIS
+            <Image
+              src="/logo.png"
+              alt="Sweis Bookkeeping"
+              width={80}
+              height={80}
+              className="rounded"
+              priority
+            />
           </a>
 
           {/* Desktop links */}

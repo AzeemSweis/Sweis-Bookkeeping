@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback } from "react";
+import Image from "next/image";
 
 export function Hero() {
   const scrollToContact = useCallback(() => {
@@ -31,15 +32,22 @@ export function Hero() {
         <p className="font-body text-gold text-sm sm:text-base tracking-[0.3em] uppercase mb-4">
           Professional Services
         </p>
-        <h1 className="font-heading text-warm-white text-6xl sm:text-7xl md:text-8xl font-bold tracking-widest mb-4">
+        <h1 className="font-heading text-warm-white text-6xl sm:text-7xl md:text-8xl font-bold tracking-widest mb-1">
           SWEIS
         </h1>
-        <p className="font-heading text-gold-light text-xl sm:text-2xl md:text-3xl font-normal tracking-wide mb-2">
+        <p className="font-heading text-gold-light text-xl sm:text-2xl md:text-3xl font-normal tracking-wide mb-0">
           Bookkeeping Services
         </p>
-        <p className="font-body text-warm-white/80 text-sm sm:text-base mb-10 max-w-md mx-auto">
-          Helping small businesses stay on top of their finances — Las Vegas, NV
-        </p>
+        <div className="max-w-xl mx-auto flex justify-center mt-14 mb-12">
+          <Image
+            src="/motto.png"
+            alt="Helping small businesses stay on top of their finances — Las Vegas, NV"
+            width={375}
+            height={103}
+            className="w-auto h-auto max-w-full"
+            priority
+          />
+        </div>
         <button
           type="button"
           onClick={scrollToContact}
