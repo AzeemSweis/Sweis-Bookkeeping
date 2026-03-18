@@ -19,7 +19,7 @@ export async function sendContactNotification(data: ContactFormData): Promise<vo
   }
 
   await getResend().emails.send({
-    from: "Sweis Bookkeeping <onboarding@resend.dev>",
+    from: "Sweis Bookkeeping <noreply@hannasweis.com>",
     to: contactEmail,
     subject: `New Contact Form Submission from ${sanitizeSubject(data.name)}`,
     html: `
