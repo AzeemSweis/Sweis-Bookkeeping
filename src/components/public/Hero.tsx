@@ -23,7 +23,7 @@ export function Hero() {
         aria-hidden="true"
       />
       <div
-        className="absolute inset-0 bg-navy/70"
+        className="absolute inset-0 bg-navy/60"
         aria-hidden="true"
       />
 
